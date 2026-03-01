@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding-top: 70px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* HERO */
+.hero-section {
+    height: 100vh;
+    background: url('solar.jpeg') no-repeat center center/cover;
+    position: relative;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* FEATURES */
+.feature-box {
+    background: #ffffff;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.feature-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.feature-box h4 {
+    color: #2b5c8a;
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+.footer-section {
+    background-color: #5fa3c2;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0d6efd;
+}
+
+/* SERVICES HERO */
+.services-hero {
+    height: 70vh;
+    background: url('services.jpeg') no-repeat center center/cover;
+    position: relative;
+}
+
+.services-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.services-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* SERVICE CARD */
+.service-card {
+    background: #ffffff;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* FEATURE BOX */
+.feature-box {
+    background: #ffffff;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* NAVBAR ACTIVE */
+.navbar-nav .nav-link.active {
+    color: #0d6efd !important;
+    font-weight: 600;
+}
+
+
+/* Navbar link base style */
+.navbar-nav .nav-link {
+    position: relative;
+    color: #000; /* normal font color */
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+}
+
+/* Underline using ::after */
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: gray; /* default underline color */
+    transition: width 0.3s ease;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+    color: gray; /* text turns gray */
+}
+
+
+
+/* Active link style */
+.navbar-nav .nav-link.active {
+    color: #007bff; /* blue text */
+}
+
+.navbar-nav .nav-link.active::after {
+    width: 100%; /* full underline */
+    background-color: #007bff; /* blue underline */
+}
+
+/* Business Hero */
+.business-hero {
+    height: 70vh;
+    background: url('business.jpeg') no-repeat center center/cover;
+    position: relative;
+}
+
+.business-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.business-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Value Cards */
+.value-card {
+    background: #ffffff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.value-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Footer */
+.footer-section {
+    background-color: #5fa3c2;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0d6efd;
+}
+
+/* ABOUT HERO */
+.about-hero {
+    height: 70vh;
+    background: url('about.jpeg') no-repeat center center/cover;
+    position: relative;
+}
+
+.about-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.about-hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* TEAM */
+.team-image img {
+    max-width: 250px;
+}
+
+/* TEXT */
+section p {
+    font-size: 16px;
+    line-height: 1.7;
+}
